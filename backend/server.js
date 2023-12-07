@@ -13,8 +13,8 @@ mongoose.Promise = Promise;
 const port = process.env.PORT || 8080;
 const app = express();
 
-import routeTest from './routes/route';
-import userRoute from './routes/users';
+import routeTest from '../routes/route';
+import userRoute from '../routes/users';
 
 // Add middlewares to enable cors and json body parsing
 app.use(cors());
